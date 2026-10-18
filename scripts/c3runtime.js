@@ -1467,8 +1467,8 @@ function or(l, r)
 }
 
 self.C3_ExpressionFuncs = [
-		() => "fon",
 		() => 0,
+		() => "fon",
 		() => 100,
 		() => 99,
 		() => "Başlangıç",
@@ -1479,8 +1479,8 @@ self.C3_ExpressionFuncs = [
 			const v2 = p._GetNode(2).GetVar();
 			return () => ((n0.ExpObject() + v1.GetValue()) * v2.GetValue());
 		},
-		() => "x",
 		() => 1,
+		() => "x",
 		p => {
 			const v0 = p._GetNode(0).GetVar();
 			return () => v0.GetValue();
