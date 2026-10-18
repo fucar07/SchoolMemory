@@ -1,0 +1,11 @@
+{
+	"name": "SchoolMemory",
+	"short_name": "SchoolMemory",
+	"description": "",
+	"start_url": "index.html",
+	"display": "fullscreen",
+	"orientation": "landscape",
+	"background_color": "#ffffff",
+	"icons": [],
+	"screenshots": []
+}
