@@ -50,8 +50,10 @@ self.C3_GetObjectRefTable = function () {
 		C3.Plugins.System.Cnds.CompareVar,
 		C3.Plugins.System.Cnds.LayerVisible,
 		C3.Plugins.Sprite.Cnds.IsAnimPlaying,
+		C3.Plugins.Sprite.Exps.AnimationFrameTag,
 		C3.Plugins.System.Cnds.TriggerOnce,
 		C3.Plugins.System.Cnds.Compare,
+		C3.Plugins.Audio.Acts.PlayByName,
 		C3.Plugins.System.Cnds.PickByComparison,
 		C3.Plugins.Sprite.Acts.MoveToTop,
 		C3.Plugins.Sprite.Acts.SetPos,
@@ -129,6 +131,7 @@ self.C3_JsPropNameTable = [
 	{Kart2: 0},
 	{kartDurum: 0},
 	{TiklamaSayisi: 0},
+	{secilenKart: 0},
 	{musicDurum: 0}
 ];
 
